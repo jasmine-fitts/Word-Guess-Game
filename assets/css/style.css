@@ -1,0 +1,13 @@
+body {
+    background: url ("../images/Grey's.jpg");
+
+    padding: 20px;
+}
+header {
+    border: 2px solid orange;
+    height: 200px; 
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
