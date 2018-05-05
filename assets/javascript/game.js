@@ -6,34 +6,41 @@ var wordBank = ["meredith", "richard", "miranda", "cristina", "shonda rhimes", "
 var wins = 0;
 var losses = 0;
 var wrongLetter = [];
-var guessesLeft = 7;
+var guessesLeft = 9;
 var underScores = []
 var userGuess = [];
-var randomWord;
+var randomWord = ""
 
 
-var wordBank = randomWord[Math.floor(Math.random() * randomWord.length)];
+document.onkeyup = function(event) {
+    
+    var randomWord = wordBank[Math.floor(Math.random() * wordBank.length)];
 
-console.log(randonWord)
+    for (var i = 0; i < wordBank.length; i++);
 
+    console.log(wordBank.length)
 
-document.onkeyup = function(event)
-{
-    userGuess = event.key; 
-    console.log(userGuess);
-}
-
+    if (userGuess === randomWord); 
 
 
-
-
-//Randomly choose a word from the array wordBank
+    
 
 
 
 
 
 
+
+
+//Randomly choose a word from the array wordBank and store it in a variable
+
+//Display the length of the word to the user
+
+//If the user guesses the correct word, wins are increased by 1
+
+//If the user guesses the incorrect letter, guesses left is decreased by 1
+
+//If 
 
 //Choose word randomly//
 
