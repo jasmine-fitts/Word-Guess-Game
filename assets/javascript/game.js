@@ -12,15 +12,17 @@ var userGuess = [];
 var randomWord;
 
 
-document.onkeyup = function(event) {
-    var userGuess = event.key;
+var wordBank = randomWord[Math.floor(Math.random() * randomWord.length)];
 
-    randomWord = wordBank[Math.floor(Math.random() * wordBank.length)];
-    
-    
-    console.log(wordBank.length);
+console.log(randonWord)
 
+
+document.onkeyup = function(event)
+{
+    userGuess = event.key; 
+    console.log(userGuess);
 }
+
 
 
 
